@@ -1,2 +1,2 @@
 # stamper
-A dumb text (re)placement utility
+A dumb text (re)placement utility.
