@@ -20,3 +20,9 @@ jobs:
       run: cargo build --verbose
     - name: Run tests
       run: cargo test --verbose
+    - name: Build (release)
+      run: cargo build --release --verbose
+    - uses: actions/upload-artifact@v3
+      with:
+        name: stamper
+        path: target/release/stamper
